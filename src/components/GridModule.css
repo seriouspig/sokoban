@@ -1,0 +1,38 @@
+.grid-module {
+  width: 32px;
+  height: 32px;
+  /* border: 1px dashed grey; */
+  position: absolute;
+}
+
+.wall {
+  background-color: rgb(120, 120, 120);
+  -webkit-box-shadow: 4px 4px 0px 4px #000000;
+  box-shadow: 4px 4px 0px 4px #000000;
+  z-index: 2;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 4;
+  width: 32px;
+  height: 32px;
+  background-color: darkgray;
+}
+
+.box {
+  background-color: lightcoral;
+  border: 1px solid black;
+  -webkit-box-shadow: 3px 3px 0px 0px #000000;
+  box-shadow: 3px 3px 0px 0px #000000;
+  z-index: 3;
+}
+
+.hole {
+  background-color: blanchedalmond;
+  -webkit-box-shadow: inset 3px 3px 5px 0px rgba(0, 0, 0, 0.69);
+  box-shadow: inset 3px 3px 5px 0px rgba(0, 0, 0, 0.69);
+  z-index: 1;
+}
